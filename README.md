@@ -6,18 +6,18 @@
 
 ### Features
 
--   [DiscoveryClient for Kubernetes](#discoveryclient-for-kubernetes)
--   [KubernetesClient autoconfiguration](#kubernetesclient-autoconfiguration)
--   [PropertySource](#kubernetes-propertysource)
+-   [DiscoveryClient for Kubernetes](#discoveryclient-for-kubernetes)[服务发现客户端]
+-   [KubernetesClient autoconfiguration](#kubernetesclient-autoconfiguration)[服务发现客户端自动化配置（Spring Boot的机制）]
+-   [PropertySource](#kubernetes-propertysource)[Kubernetes相关的属性配置]
   -   [ConfigMap PropertySource](#configmap-propertysource)
   -   [Secrets PropertySource](#secrets-propertysource)
   -   [PropertySource Reload](#propertysource-reload)
 -   [Pod Health Indicator](#pod-health-indicator)
 -   [Transparency](#transparency) *(its transparent whether the code runs in or outside of Kubernetes)*
 -   [Kubernetes Profile Autoconfiguration](#kubernetes-profile-autoconfiguration)
--   [Ribbon discovery in Kubernetes](#ribbon-discovery-in-kubernetes)
--   [Zipkin discovery in Kubernetes](#zipkin-discovery-in-kubernetes)
--   [ConfigMap Archaius Bridge](#configmap-archaius-bridge)
+-   [Ribbon discovery in Kubernetes](#ribbon-discovery-in-kubernetes)[Kubernetes客户端与Ribbon对接]
+-   [Zipkin discovery in Kubernetes](#zipkin-discovery-in-kubernetes)[Kubernetes客户端与Zipkin对接]
+-   [ConfigMap Archaius Bridge](#configmap-archaius-bridge)
 
 ---
 ### DiscoveryClient for Kubernetes
